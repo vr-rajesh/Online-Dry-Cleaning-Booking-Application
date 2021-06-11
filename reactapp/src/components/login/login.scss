@@ -1,0 +1,116 @@
+/* .base-container{
+    overflow: hidden;
+}
+
+.login-fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea:focus, input:focus{
+    outline: none !important;
+} */
+
+.base-container {
+    width: 100%;
+    overflow: hidden;
+
+    .login-fields{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+    }
+    .image {
+        position: relative;
+    }
+    .image .after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: rgba(0, 0, 0, .25);
+    }
+
+    .div-image{
+        background-image: url('../../assets/loginpage.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 80vh;
+        width: 100%;
+    }
+    
+    .header1 {
+        font-size: 24px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .header {
+        font-size: 24px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+    .form {
+        margin-top: 2em;
+        // display: flex;
+        // flex-direction: column;
+        align-items: center;
+
+        .form-group {
+            display: flex;
+            // flex-direction: column;
+            // align-items: flex-start;
+            // width: fit-content;
+            align-items: center;
+            justify-content: center;
+            label {
+                font-size: 20px;
+            }
+            select {
+                margin-top: 6px;
+                min-width: 18em;
+                height: 37px;
+                padding: 0px 10px;
+                font-size: 16px;
+                font-family: "Open Sans", sans-serif;
+                outline: 0;
+                border-width: 0 0 1px;
+                border-color: black;
+                margin-bottom: 31px;
+                transition: all 250ms ease-in-out;
+            }
+            input {
+                margin-top: 6px;
+                min-width: 18em;
+                height: 37px;
+                padding: 0px 10px;
+                font-size: 16px;
+                font-family: "Open Sans", sans-serif;
+                outline: 0;
+                border-width: 0 0 1px;
+                border-color: black;
+                margin-bottom: 31px;
+                transition: all 250ms ease-in-out;
+            
+            }
+        }
+        .login-button{
+            display: flex;
+            justify-content: center;
+            
+            .input-remember{
+                margin-top: 0.5rem !important;
+                margin-right: 0.5rem !important;
+            }
+        }
+        .register{
+            text-align: center;
+            margin-top: 60px;
+        }
+    }
+
+}

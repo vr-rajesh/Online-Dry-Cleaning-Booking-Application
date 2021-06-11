@@ -1,0 +1,23 @@
+.base-container-home{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(33,131,154));
+    height: 100vh;
+    overflow: hidden;
+}
+.display-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-image{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-section{
+    padding-left: 40px;
+    text-align: left;
+    // top: 50%;
+    // color: rgb(12, 12, 12);
+    
+}

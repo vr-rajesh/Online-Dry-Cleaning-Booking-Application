@@ -1,0 +1,76 @@
+.base-container-user{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(33,131,154));
+}
+.row-user{
+    margin-top: 20px;
+}
+.each-card-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-customer-1{
+    width: 55%;
+}
+.image-customer{
+    margin-top: 15px;
+}
+.number-user{
+    background-color: #f00946;
+    width: 13%;
+    padding: 10px 17px 10px 17px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.image-customer:hover, .image-customer-1:hover {
+    transform: scale(1.2);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.dropdown {
+    float: left;
+    /* overflow: hidden; */
+  }
+  
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    top: 75px;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -100;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    border-bottom: 2px solid #f00946;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
